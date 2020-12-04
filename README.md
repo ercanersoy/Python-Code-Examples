@@ -9,3 +9,4 @@ Copyright (c) 2020 Ercan Ersoy
 * [Hello World](hello-world)
 * [User Input](user-input)
 * [Circle Calculator](circle-calculator)
+* [Simple Calculator](simple-calculator)
