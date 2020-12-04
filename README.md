@@ -8,3 +8,4 @@ Copyright (c) 2020 Ercan Ersoy
 * [User Input](user-input)
 * [Circle Calculator](circle-calculator)
 * [Simple Calculator](simple-calculator)
+* [Number Guess Game](number-guess-game)
