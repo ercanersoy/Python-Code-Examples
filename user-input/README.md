@@ -1,5 +1,5 @@
 # User Input
 
-An user input example in Python
+An simple user input program
 
 This example does not used a variable.
