@@ -5,6 +5,7 @@ while True:
     print("4. Division")
     print("5. Exit")
     choice = input("Your choice: ")
+    print()
     
     if choice == "1":
         first_addend = float(input("First addend: "))
@@ -30,5 +31,5 @@ while True:
         break
     else:
         print("Wrong choice!")
-
-
+    
+    print()
