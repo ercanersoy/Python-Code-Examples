@@ -4,7 +4,7 @@ sg.theme("SystemDefaultForReal")
 
 layout = [[sg.Text("Example Message")]]
 
-window = sg.Window("Message Box", layout, element_justification="c",
+window = sg.Window("Simple Window", layout, element_justification="c",
                    size=(300, 100), finalize=True)
 
 while True:
