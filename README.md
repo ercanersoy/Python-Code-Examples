@@ -2,6 +2,8 @@
 
 Copyright (c) 2020-2022 [Ercan Ersoy](http://ercanersoy.net)
 
+These files licensed by MIT License.
+
 ## Examples List
 
 * [Circle Calculator](circle-calculator)
