@@ -1,6 +1,6 @@
 # Python Examples
 
-Copyright (c) 2020 Ercan Ersoy
+Copyright (c) 2020-2022 [Ercan Ersoy](http://ercanersoy.net)
 
 ## Examples List
 
