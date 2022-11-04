@@ -13,4 +13,6 @@ These files licensed by MIT License.
 * [Rock Paper Scissors](rock-paper-scissors)
 * [Simple Calculator](simple-calculator)
 * [Simple Server](simple-server)
+* [Simple Window](simple-server-window)
 * [User Input](user-input)
+* [User Input Window](user-input-window)
