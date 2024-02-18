@@ -1,20 +1,15 @@
 # Simple Window - A simple window program
 # Copyright (c) 2022 Ercan Ersoy
 # This file licensed under MIT License.
+# Write this code using GitHub Copilot.
 
-import PySimpleGUI as sg
+import tkinter as tk
 
-sg.theme("SystemDefaultForReal")
+window = tk.Tk()
+window.title("Simple Window")
+window.geometry("300x100")
 
-layout = [[sg.Text("Example Message")]]
+label = tk.Label(window, text="Example Message")
+label.place(relx=0.5, rely=0.5, anchor="center")
 
-window = sg.Window("Simple Window", layout, element_justification="c",
-                   size=(300, 100), finalize=True)
-
-while True:
-    event, values = window.read()
-
-    if event == sg.WIN_CLOSED:
-        break
-
-window.close()
+window.mainloop()

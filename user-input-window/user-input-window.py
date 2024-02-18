@@ -1,24 +1,28 @@
 # User Input Window - A simple user input window program
 # Copyright (c) 2022 Ercan Ersoy
 # This file licensed under MIT License.
+# Write this code using GitHub Copilot.
 
-import PySimpleGUI as sg
+import tkinter as tk
 
-sg.theme("SystemDefaultForReal")
+def on_button_click():
+    print(input_entry.get())
+    window.destroy()
 
-layout = [[sg.Text("Input:"), sg.In(size=(50, 1), key="INPUT"), sg.Button("OK")]]
+window = tk.Tk()
+window.title("User Input Window")
+window.geometry("400x100")
 
-window = sg.Window("User Input Window", layout, element_justification="c",
-                   size=(500, 100), finalize=True)
+frame = tk.Frame(window)
+frame.pack(anchor="center")
 
-while True:
-    event, values = window.read()
+input_label = tk.Label(frame, text="Input")
+input_label.grid(row=0, column=0, sticky="w", padx=5, pady=5)
 
-    if event == "OK":
-        print(values["INPUT"])
-        break
+input_entry = tk.Entry(frame, width=50)
+input_entry.grid(row=1, column=0, padx=5, pady=5)
 
-    if event == sg.WIN_CLOSED:
-        break
+ok_button = tk.Button(frame, text="OK", command=on_button_click)
+ok_button.grid(row=1, column=1, sticky="e", padx=5, pady=5)
 
-window.close()
+window.mainloop()
