@@ -1,3 +1,7 @@
+# Simple Server - A simple server program
+# Copyright (c) 2020 Ercan Ersoy
+# This file licensed under MIT License.
+
 import socket
 import sys
 

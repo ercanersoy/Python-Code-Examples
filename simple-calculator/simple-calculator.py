@@ -1,3 +1,7 @@
+# Simple Calculator - A simple calculator program
+# Copyright (c) 2020 Ercan Ersoy
+# This file licensed under MIT License.
+
 while True:
     print("1. Addition")
     print("2. Substraction")

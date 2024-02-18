@@ -1,3 +1,7 @@
+# Number Guess Game - A simple number guessing game
+# Copyright (c) 2020 Ercan Ersoy
+# This file licensed under MIT License.
+
 import sys
 from random import random
 

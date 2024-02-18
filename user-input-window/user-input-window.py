@@ -1,3 +1,7 @@
+# User Input Window - A simple user input window program
+# Copyright (c) 2022 Ercan Ersoy
+# This file licensed under MIT License.
+
 import PySimpleGUI as sg
 
 sg.theme("SystemDefaultForReal")

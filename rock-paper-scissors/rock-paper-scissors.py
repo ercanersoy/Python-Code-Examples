@@ -1,3 +1,7 @@
+# Rock, Paper, Scissors Game - A simple rock paper scissors game
+# Copyright (c) 2020 Ercan Ersoy
+# This file licensed under MIT License.
+
 from random import uniform
 
 elements = ["rock", "paper", "scissors"]
