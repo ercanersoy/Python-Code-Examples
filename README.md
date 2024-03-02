@@ -8,6 +8,7 @@ These files licensed by MIT License.
 
 * [Circle Calculator](circle-calculator)
 * [Hello World](hello-world)
+* [Image Edge Detection](image-edge-detection)
 * [Number Guess Game](number-guess-game)
 * [Random Number Generator](random-number-generator)
 * [Rock Paper Scissors](rock-paper-scissors)
